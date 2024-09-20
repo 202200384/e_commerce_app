@@ -12,7 +12,7 @@ class GridViewCardItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // استبدال الصورة الافتراضية هنا
+
     String productImage = product.imageCover ?? 'assets/images/default_product_image.png';
 
     return Container(
